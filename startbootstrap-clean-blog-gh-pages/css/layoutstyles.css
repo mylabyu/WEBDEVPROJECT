@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(192, 146, 236);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.common{
+    border: 2px;
+    position: absolute;
+}
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 20px;
+    padding: 5px;
+    z-index: 3;
+    border-bottom: solid 1px gray;
+}
+.leftmenu{
+    top: 34px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    padding: 5px;
+    z-index: 1;
+    border-right: solid 1px gray;
+    position: fixed;
+}
+.mainbody{
+    top: 34px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+    padding: 5px;
+    z-index: 2;
+}
+.rightmenu{
+    top: 34px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+    padding: 5px;
+    border-left: solid 1px gray;
+}
+.footer{
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+    height: 25px;
+    font-size: 10px;
+    color: rgb(45, 25, 25);
+    text-align: center;
+    padding-top: 10px;
+    position:fixed;
+}
+.subheader{
+    float:right;
+}
