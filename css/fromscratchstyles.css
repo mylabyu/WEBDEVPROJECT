@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(44, 44, 44);
+}
+h1,h3,h4{
+    color: rgb(70, 56, 146);
+}
+li{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: normal;
+}
+.listheading{ /*used this custom style so that it wouldn't apply to every single list item*/
+    font-weight: bold;
+    font-style: normal;
+}
+.underline{text-decoration: underline;}
+.homebg{
+    background-image: url('../images/Water.JPG');
+    background-position: top right;
+    background-size: cover;
+}
+.textindent{text-indent: 6%;}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 107);
+}
+a:hover{text-decoration: underline;}
+a:visited{color: rgb(52, 0, 65);}
+.boxmodel{
+    border-style: solid;
+    border-color: rgb(53, 21, 21);
+    border-width: 1px;
+    padding: 5px;
+    margin: 3px;
+    width: 400px;
+}
